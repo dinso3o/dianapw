@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+
+    <h2>
+        <font color="#c0392b" face="Arial">FORM PENDAFTARAN</font>
+    </h2>
+
+    <hr>
+    <br>
+
+    <form action="kirim.php" method="POST">
+
+        <table cellpadding="8" border="0">
+
+            <tr>
+                <td><font face="Arial">Nama</font></td>
+                <td><input type="text" name="nama" required></td>
+            </tr>
+
+            <tr>
+                <td><font face="Arial">Tempat Lahir</font></td>
+                <td><input type="text" name="tempat" required></td>
+            </tr>
+
+            <tr>
+                <td><font face="Arial">Tanggal Lahir</font></td>
+                <td><input type="date" name="tanggal" required></td>
+            </tr>
+
+            <tr>
+                <td><font face="Arial">Jenis Kelamin</font></td>
+                <td>
+                    <font face="Arial">
+                        <input type="radio" name="jk" value="Laki-laki" required> Laki-laki
+                        <input type="radio" name="jk" value="Perempuan" required> Perempuan
+                    </font>
+                </td>
+            </tr>
+
+            <tr>
+                <td><font face="Arial">Alamat</font></td>
+                <td><input type="text" name="alamat" required></td>
+            </tr>
+
+            <tr>
+                <td><font face="Arial">Sekolah Asal</font></td>
+                <td>
+                    <select name="sekolah" required>
+                        <option value="">-- Pilih Sekolah --</option>
+                        <option value="SMA">SMA</option>
+                        <option value="MA">MA</option>
+                        <option value="SMK">SMK</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b><font face="Arial">Nilai TKA</font></b></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><font face="Arial">Matematika</font></td>
+                <td><input type="number" name="mtk" required></td>
+            </tr>
+
+            <tr>
+                <td><font face="Arial">Bahasa Inggris</font></td>
+                <td><input type="number" name="ing" required></td>
+            </tr>
+
+            <tr>
+                <td><font face="Arial">Bahasa Indonesia</font></td>
+                <td><input type="number" name="indo" required></td>
+            </tr>
+
+            <tr>
+                <td><b><font face="Arial">Jurusan Yang Dipilih</font></b></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><font face="Arial">Jurusan Pilihan 1</font></td>
+                <td>
+                    <select name="jur1" required>
+                        <option value="">-- Pilih Jurusan 1 --</option>
+                        <option value="TEKNIK INFORMATIKA">TEKNIK INFORMATIKA</option>
+                        <option value="SISTEM INFORMASI">SISTEM INFORMASI</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><font face="Arial">Jurusan Pilihan 2</font></td>
+                <td>
+                    <select name="jur2" required>
+                        <option value="">-- Pilih Jurusan 2 --</option>
+                        <option value="TEKNIK INFORMATIKA">TEKNIK INFORMATIKA</option>
+                        <option value="SISTEM INFORMASI">SISTEM INFORMASI</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top"><font face="Arial">Alasan</font></td>
+                <td>
+                    <textarea name="alasan" required></textarea>
+                </td>
+            </tr>
+
+            <!-- Kolom Centang Keyakinan -->
+            <tr>
+                <td></td>
+                <td>
+                    <font face="Arial" size="2">
+                        <input type="checkbox" name="yakin" required> Saya yakin data yang saya isi sudah benar dan jujur.
+                    </font>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Daftar">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>

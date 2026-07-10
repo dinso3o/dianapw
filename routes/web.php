@@ -15,7 +15,3 @@ Route::get('/komik', function () {
 Route::get('/uts', function () {
     return view('menu.uts');
 });
-// route khusus untuk memuat form HTML
-Route::get('/load-form-uts', function () {
-    return file_get_contents(resource_path('views/Pendaftaran/form.html'));
-});

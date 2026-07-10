@@ -1,5 +1,5 @@
 <?php
-mysqli_report(MYSQLI_REPORT_OFF);
+//mysqli_report(MYSQLI_REPORT_OFF);
 // koneksi
 $host = "localhost";
 $user = "root";

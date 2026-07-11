@@ -5,7 +5,7 @@
     <h2><font color="#c0392b">HALAMAN BERANDA</font></h2>
     <font size="3">
         <p>Selamat datang di Web Tugas Pemrograman Web!</p>
-        <p>Website ini sebagai tempat untuk mengumpulkan Tugas UTS &amp; UAS jadi satu dan rapi. Di sini, hasil praktikum dan ujian yang sudah saya kerjakan digabung ke dalam satu menu navigasi, jadi lebih gampang untuk dilihat dan diakses kembali.</p>
+        <p>Website ini sebagai tempat untuk mengumpulkan Tugas UTS &amp; UAS jadi satu dan rapi. Di sini, hpasil praktikum dan ujian yang sudah saya kerjakan digabung ke dalam satu menu navigasi, jadi lebih gampang untuk dilihat dan diakses kembali.</p>
     </font>
     <br>
     <hr>

@@ -1,11 +1,11 @@
 <?php
 //mysqli_report(MYSQLI_REPORT_OFF);
 // koneksi
-$host = "mysql.railway.internal";
+$host = "thomas.proxy.rlwy.net";
 $user = "root";
 $pw   = "YtAMYjqEraBgTySajCLJfymTQfaTtUtI";
 $db   = "railway";
-$port = "3306";
+$port = "58572";
 // koneksi database
 $cek = @mysqli_connect($host, $user, $pw, $db, $port);
 
